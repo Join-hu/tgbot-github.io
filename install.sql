@@ -1,0 +1,7 @@
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER UNIQUE,
+    balance REAL DEFAULT 0,
+    ref_id INTEGER DEFAULT 0,
+    last_bonus INTEGER DEFAULT 0
+);
